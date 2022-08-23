@@ -33,3 +33,11 @@ body {
 .extend {
     width: 100%;
 }
+
+#colorBlue {
+    color: #005071;
+}
+
+#colorBlue:hover {
+    color: #557fa5;
+}

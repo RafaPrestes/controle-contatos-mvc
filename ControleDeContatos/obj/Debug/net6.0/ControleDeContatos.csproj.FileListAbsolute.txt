@@ -60,3 +60,4 @@ C:\Projetos\CSharp\ControleDeContatos\ControleDeContatos\bin\Debug\net6.0\runtim
 C:\Projetos\CSharp\ControleDeContatos\ControleDeContatos\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 C:\Projetos\CSharp\ControleDeContatos\ControleDeContatos\obj\Debug\net6.0\ControleDeContatos.csproj.CopyComplete
 C:\Projetos\CSharp\ControleDeContatos\ControleDeContatos\obj\Debug\net6.0\scopedcss\Views\Shared\_LayoutDeslogado.cshtml.rz.scp.css
+C:\Projetos\CSharp\ControleDeContatos\ControleDeContatos\bin\Debug\net6.0\Newtonsoft.Json.dll
