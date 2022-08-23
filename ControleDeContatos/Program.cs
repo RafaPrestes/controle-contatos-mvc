@@ -13,8 +13,9 @@ builder.Services.AddDbContext<BancoContext>(options =>
     options.UseSqlServer("Data Source=DESKTOP-6DSQIGQ\\SQLEXPRESS;Database=DB_SistemaContatos;Trusted_Connection=True;");
 });
 
-// podendo utilizar os métodos da interface
+// podendo utilizar os métodos da interface, ou seja, quando injetar a interface, vai chamar a classe com os métodos
 builder.Services.AddScoped<IContatoRepositorio, ContatoRepositorio>();
+builder.Services.AddScoped<IUsuarioRepositorio, UsuarioRepositorio>();
 
 var app = builder.Build();
 
@@ -35,6 +36,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Login}/{action=Index}/{id?}");
 
 app.Run();

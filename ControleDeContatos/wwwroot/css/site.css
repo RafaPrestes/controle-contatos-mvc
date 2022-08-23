@@ -29,3 +29,7 @@ body {
     width: 30px;
     height: 31px;
 }
+
+.extend {
+    width: 100%;
+}
